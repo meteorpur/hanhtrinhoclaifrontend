@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BÀi 14</title>
+  </head>
+
+  <body>
+    <p>Đường dẫn tương đối</p>
+    <img src="./baby.jpg" alt="Baby" />
+    <p>Đường dẫn tương đối</p>
+    <img src="./img/girl.jpg" alt="cô gái" />
+    <p>Đường dẫn tương đối cách 2</p>
+    <img src="baby.jpg" alt="baby" />
+    <p>trở về thư mục trên 1 cấp</p>
+    <img src="../boy.jpg" alt="boy" />
+
+    <p>Đường dẫn tuyệt đối</p>
+    <img src="/project1/img/girl.jpg" alt="girl" />
+
+    <!-- 1 vài chú ý được thông não
+        * Đường dẫn tương đối:
+        ./ :bắt đầu từ file cùng cấp cho đến những cấp nhỏ hơn
+        Nếu cùng cấp có thể bỏ qua ./ và viết luôn tên file ảnh
+        ../: bắt đầu từ thư mục trên file đang code 1 cấp
+        Nhược điểm: nếu di chuyển file đang code sang vị trí khác mà giữ nguyên đường dẫn ảnh có thể sẽ k hiện
+
+        * Đường dẫn tuyệt đối:
+        / : bắt đầu từ thư mục gốc -> file nhỏ cấp
+        Ưu điểm: di chuyển file đang code sang vị trí khác ảnh vẫn sẽ được hiện
+    -->
+  </body>
+</html>
